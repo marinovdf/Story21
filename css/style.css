@@ -295,27 +295,27 @@ section #page5 {
 }
 
 
-table{
+.custom-table{
     text-align: center;
     width: 100%;
 }
 
-tr{
+.custom-table tr{
     height: 35px;
     vertical-align: middle;
 }
 
-tr:first-child{
+.custom-table tr:first-child{
     font-size: 16px;
 }
-tr{
+.custom-table tr{
     font-size: 18px;
 }
-tr td{
+.custom-table tr td{
     border: 2px solid #ffffff;
     background: #ebebeb;
 }
-tr>td:first-child{
+.custom-table tr>td:first-child{
     width: 115px;
     background: #d7d7d7;
 }
